@@ -1,0 +1,105 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1B244A;
+    color: rgba(238, 238, 238, 1);
+    font-size: 90px;
+    font-weight: 700;
+}
+
+
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: CursedTimerULiL;
+}
+
+#score-guest,
+#score-home {
+    font-family: CursedTimerULiL;
+    color:rgba(249, 79, 109, 1);
+    font-weight: 400;
+    font-size:  90px;
+}
+.add{
+    font-family: CursedTimerULiL;
+}
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#score-home{
+    width:155px;
+    /* height:40px; */
+    border: 3px solid black;
+      border-radius: 5px;
+}
+
+
+#score-guest{
+    width:155px;
+ /*    height:40px; */
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.box-add{
+    display: flex;
+}
+
+.add{
+    border: 2px solid rgba(154, 171, 216, 1);
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 6px;
+    font-size: 18px;
+    width: 45px;
+   /*  height: 45px; */
+    padding: 14px 0;
+    text-align: center;
+    color:rgba(154, 171, 216, 1);
+}
+
+.score-home,
+.score-guest{
+    padding: 4px 0;
+    text-align: center;
+    background: rgba(8, 0, 1, 1);
+    margin-bottom:26px;
+    margin-top:21px;
+}
+
+.box-add{
+    margin: 0;
+}
+
+h3{
+    margin:0;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.game-over{
+    display: block;
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center;
+   color:rgba(154, 171, 216, 1);
+  background: rgba(8, 0, 1, 1);
+  border: none;
+  border-radius: 5px;
+}
+
+#winner{
+    font-size: 26px;
+    text-align: center;
+}
